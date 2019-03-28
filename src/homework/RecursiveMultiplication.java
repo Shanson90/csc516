@@ -1,4 +1,4 @@
-package classwork;
+package homework;
 
 public class RecursiveMultiplication
 {

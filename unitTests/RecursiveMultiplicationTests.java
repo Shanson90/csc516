@@ -1,6 +1,6 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import classwork.RecursiveMultiplication;
+import homework.RecursiveMultiplication;
 import org.junit.jupiter.api.Test;
 
 class RecursiveMultiplicationTests {
