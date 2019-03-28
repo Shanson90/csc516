@@ -102,7 +102,9 @@ public class IntQuickSorter
       int temp;
       
       temp = array[a];
+      SortBenchmarks.quickSwaps++;
       array[a] = array[b];
+      SortBenchmarks.quickSwaps++;
       array[b] = temp;
    }
 }
