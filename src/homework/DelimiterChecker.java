@@ -7,7 +7,6 @@ import java.util.Stack;
 
 public class DelimiterChecker {
 
-    private File file;
     FileReader reader;
     private Stack<Character> delims;
     private char[] chars = new char[10000];
@@ -15,8 +14,7 @@ public class DelimiterChecker {
 
     public DelimiterChecker(File f) throws FileNotFoundException {
         reader = new FileReader(f.getAbsolutePath());
-        file = f;
-        delims = new Stack<Character>();
+        delims = new Stack<>();
     }
 
     public String validPortion() throws Exception {
